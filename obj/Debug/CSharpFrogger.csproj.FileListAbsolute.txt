@@ -1,0 +1,2 @@
+C:\Users\Pichau\Documents\GitHub\CSharpFrogger\obj\Debug\CSharpFrogger.csprojResolveAssemblyReference.cache
+C:\Users\Pichau\Documents\GitHub\CSharpFrogger\obj\Debug\CSharpFrogger.csproj.CoreCompileInputs.cache

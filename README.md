@@ -2,7 +2,7 @@
 C#
 O que Falta:
 
--"View Menu" + "Are You Suere" Classes
+-"View Menu" + "Are You Sure" Classes
 
 -Reslover problema com as pistas no Jogo
 
@@ -11,3 +11,5 @@ O que Falta:
 -EventHandlers pra pegar as teclas do teclado
 
 - Testar
+
+- Relatório Latex

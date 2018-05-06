@@ -14,14 +14,6 @@ namespace CSharpFrogger.Controle
         public static int DEFAULT_NO_DELAYS_PER_YIELD = 16;
         public static int DEFAULT_MAX_FRAME_SKIPS = 5;
 
-        private static readonly DateTime Jan1st1970 = new DateTime
-           (1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
-
-        public static long CurrentTimeMillis()
-        {
-            return (long)(DateTime.UtcNow - Jan1st1970).TotalMilliseconds;
-        }
-
         private static long NanoTime()
         {
             Stopwatch stopwatch = new Stopwatch();
@@ -41,7 +33,7 @@ namespace CSharpFrogger.Controle
         private Boolean CurrentLevel;
 
         private long afterTime;
-        private long beforeTime = CurrentTimeMillis();
+        private long beforeTime = ControleTempo.CurrentTimeMillis();
 
         private long overSleepTime = 0;
         private long excessTime = 0;
